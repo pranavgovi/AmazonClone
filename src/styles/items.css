@@ -1,0 +1,32 @@
+.check{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  
+}
+.checked_image{
+    width:200px;
+    height:200px;
+
+}
+.checked_detail{
+    
+    width:300px;
+    height:fit-content;
+    padding-left: 10px;
+}
+.checked_detail h3{
+    font-size: larger;
+    font-weight: 800;
+}
+.basket{
+    background-color: gold;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.basket:hover {
+    background-color: #45a049; /* Change the color to your desired hover color */
+  }

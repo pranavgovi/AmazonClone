@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.heading{
+  color:cyan;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background:linear-gradient(#FFD3A5, #FD6585);
+  background-repeat: no-repeat;
+  background-color:gray;
 }

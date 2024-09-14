@@ -1,0 +1,50 @@
+.star{
+    color: gold;
+}
+.product {
+    z-index: 1;
+    min-width:100px;
+    background-color: white;
+    min-height:100px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+   /* Add the border style (e.g., 'solid') and color (e.g., 'black') */
+    padding: 10px;
+    margin: 10px; /* Add margin for spacing if needed */
+}
+.image{
+    display: flex;
+    align-items: center;
+  
+}
+.product_details{
+    color: black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: left;
+}
+.basket{
+    background-color: gold;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+}
+.basket:hover {
+    background-color: #45a049; /* Change the color to your desired hover color */
+  }
+.product_details1{
+    color: black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    border-bottom: 10px;
+}

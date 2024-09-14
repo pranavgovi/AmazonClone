@@ -1,0 +1,20 @@
+.amazon_home_image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px; /*this means that the elements can occupy upto 150px in the image*/
+
+ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234,237,237);
+    
+}
+.homecontainer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width:100%
+}
